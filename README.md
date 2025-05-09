@@ -1,4 +1,7 @@
-# Minimal Versioning System (MVS)
+<p align="center">
+    <img src="assets/mvs-logo.png" width="250" />
+</p>
+<h1 align="center">Minimal Versioning System</h1>
 
 A lightweight version control system written in Go. MVS provides basic `init`, `add`, `remove`, `commit`, `log`, `branch`, `checkout`, `status`, and `tree` commands, with `msgpack` metadata, Ed25519 signatures for tamper-evident history, and global configuration via YAML.
 
