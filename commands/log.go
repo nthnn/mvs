@@ -2,6 +2,7 @@ package commands
 
 import (
 	"fmt"
+	"os"
 	"path/filepath"
 
 	"github.com/nthnn/mvs/core"
@@ -48,5 +49,14 @@ func LogCommand() {
 			stylizeText(commit.Message),
 		)
 		head = commit.Parent
+
+		input, err := utils.GetSingleChar()
+		if err != nil {
+			continue
+		}
+
+		if input == 'q' {
+			os.Exit(0)
+		}
 	}
 }
