@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif; margin: 2rem;
+    background-color: #0d1117;
+    transition: background-color 0.3s;
+}
+
+#content {
+    padding-top: 1rem;
+}
+
+.markdown-body {
+    box-sizing: border-box;
+    min-width: 200px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+#progress {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 4px;
+    display: block;
+    -webkit-appearance: none;
+    appearance: none;
+    z-index: 1000;
+    transition: all 0.3s ease-in-out;
+}
+
+#progress::-webkit-progress-bar {
+    background-color: rgba(108, 113, 120, 0.5);
+}
+
+#progress::-webkit-progress-value {
+    background-color: #3e75c2;
+}
+
+#progress::-moz-progress-bar {
+    background-color: #3e75c2;
+}
+
+@media (min-width: 768px) {
+    #content {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    #progress {
+        width: 25%;
+    }
+}
