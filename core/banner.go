@@ -32,13 +32,15 @@ func PrintBanner(title, buildVersion, url string) {
 		"  " + stylizeCommandName("mvs      ") + "<command>  [options]\r\n\r\n" +
 		"\x1b[1mCommands\x1b[0m:\r\n" +
 		"  " + stylizeCommandName("init     ") + "           Initialize a new repository\r\n" +
+		"  " + stylizeCommandName("branch   ") + "[name]     List or create branch\r\n" +
+		"  " + stylizeCommandName("checkout ") + "<name>     Switch branch or commit\r\n" +
 		"  " + stylizeCommandName("add      ") + "<paths>    Stage file changes\r\n" +
 		"  " + stylizeCommandName("remove   ") + "<paths>    Unstage file changes\r\n" +
 		"  " + stylizeCommandName("commit   ") + "<message>  Commit staged changes\r\n" +
+		"  " + stylizeCommandName("amend    ") + "<message>  Amend the message of previous commit\r\n" +
 		"  " + stylizeCommandName("log      ") + "           Show commit history\r\n" +
-		"  " + stylizeCommandName("branch   ") + "[name]     List or create branch\r\n" +
-		"  " + stylizeCommandName("checkout ") + "<name>     Switch branch or commit\r\n" +
-		"  " + stylizeCommandName("status   ") + "           Show working tree status\r\n\r\n"
+		"  " + stylizeCommandName("status   ") + "           Show staged/modified/untracked files\r\n" +
+		"  " + stylizeCommandName("tree     ") + "           Render an ASCII branch tree\r\n\r\n"
 
 	fmt.Print(banner)
 }
