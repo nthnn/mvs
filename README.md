@@ -14,17 +14,17 @@ A lightweight version control system written in Go. MVS provides basic `init`, `
 | Command             | Description                          |
 | ------------------- | ------------------------------------ |
 | `init`              | Initialize a new repository          |
-| `add <paths>`       | Stage file changes                   |
-| `remove <paths>`    | Unstage or remove file changes       |
-| `commit -m "<msg>"` | Commit staged changes                |
-| `log`               | Show commit history                  |
 | `branch [name]`     | List or create a branch              |
 | `checkout <name>`   | Switch to branch or commit           |
+| `add <paths>`       | Stage file changes                   |
+| `remove <paths>`    | Unstage or remove file changes       |
+| `commit -m <msg>`   | Commit staged changes                |
+| `amend -m <msg>`    | Amend the message of previous commit |
+| `log`               | Show commit history                  |
 | `status`            | Show staged/modified/untracked files |
 | `tree`              | Render an ASCII branch tree          |
 
 ## To-do
 
 - [ ] Complete `*.deb` installer generation on `build.sh`.
-- [ ] Add more information to `status` command.
 - [ ] One by one printing of commit history.
