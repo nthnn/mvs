@@ -42,7 +42,7 @@ func LogCommand() {
 				"\x1b[1mAuthor\x1b[0m: %s\r\n"+
 				"\x1b[1mDate\x1b[0m:\t%s"+
 				"\r\n\r\n\t%s\r\n\r\n",
-			stylizeText(commit.Hash),
+			stylizeText(commit.Hash[:16]+"…"),
 			stylizeText(commit.Author+" <"+commit.Email+">"),
 			stylizeText(commit.Timestamp),
 			stylizeText(commit.Message),

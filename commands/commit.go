@@ -163,5 +163,8 @@ func CommitCommand() {
 		return
 	}
 
-	logger.Log("Committed: %s", commit.Hash)
+	logger.Log(
+		"Committed: %s",
+		stylizeText(commit.Hash[:16]+"…"),
+	)
 }
