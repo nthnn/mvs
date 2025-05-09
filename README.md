@@ -1,12 +1,12 @@
 <p align="center">
-    <img src="assets/mvs-logo.png" width="250" />
+    <img src="https://raw.githubusercontent.com/nthnn/mvs/refs/heads/main/assets/mvs-logo.png" width="250" />
 </p>
 <h1 align="center">Minimal Versioning System</h1>
 
 A lightweight version control system written in Go. MVS provides basic `init`, `add`, `remove`, `commit`, `amend`, `log`, `branch`, `checkout`, `status`, and `tree` commands, with `msgpack` metadata, Ed25519 signatures for tamper-evident history, and global configuration via YAML.
 
 <p align="center">
-    <img src="assets/screenshot.png" width="60%" />
+    <img src="https://raw.githubusercontent.com/nthnn/mvs/refs/heads/main/assets/screenshot.png" width="60%" />
 </p>
 
 - **Repository Initialization**: Create a new `.mvs` repository with `mvs init`.
@@ -37,4 +37,4 @@ A lightweight version control system written in Go. MVS provides basic `init`, `
 
 ## License
 
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License**. See the [LICENSE](https://github.com/nthnn/mvs/blob/main/LICENSE) file for details.
