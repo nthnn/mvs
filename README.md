@@ -3,6 +3,10 @@
 </p>
 <h1 align="center">Minimal Versioning System</h1>
 
+<p align="center">
+    <img alt="Build MVS" src="https://github.com/nthnn/mvs/actions/workflows/build_ci.yml/badge.svg" />
+</p>
+
 A lightweight version control system written in Go. MVS provides basic `init`, `add`, `remove`, `commit`, `amend`, `log`, `branch`, `checkout`, `status`, and `tree` commands, with `msgpack` metadata, Ed25519 signatures for tamper-evident history, and global configuration via YAML.
 
 <p align="center">
