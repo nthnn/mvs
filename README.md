@@ -3,7 +3,11 @@
 </p>
 <h1 align="center">Minimal Versioning System</h1>
 
-A lightweight version control system written in Go. MVS provides basic `init`, `add`, `remove`, `commit`, `log`, `branch`, `checkout`, `status`, and `tree` commands, with `msgpack` metadata, Ed25519 signatures for tamper-evident history, and global configuration via YAML.
+A lightweight version control system written in Go. MVS provides basic `init`, `add`, `remove`, `commit`, `amend`, `log`, `branch`, `checkout`, `status`, and `tree` commands, with `msgpack` metadata, Ed25519 signatures for tamper-evident history, and global configuration via YAML.
+
+<p align="center">
+    <img src="assets/screenshot.png" width="60%" />
+</p>
 
 - **Repository Initialization**: Create a new `.mvs` repository with `mvs init`.
 - **Content Tracking**: Stage (`add`) and unstage (`remove`) files, then snapshot changes with `commit`.
@@ -30,3 +34,7 @@ A lightweight version control system written in Go. MVS provides basic `init`, `
 ## To-do
 
 - [ ] Complete `*.deb` installer generation on `build.sh`.
+
+## License
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
