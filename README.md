@@ -27,4 +27,3 @@ A lightweight version control system written in Go. MVS provides basic `init`, `
 ## To-do
 
 - [ ] Complete `*.deb` installer generation on `build.sh`.
-- [ ] One by one printing of commit history.
