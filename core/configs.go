@@ -1,3 +1,9 @@
+/*
+ * Copyright 2025 Nathanne Isip
+ * This file is part of Minimal Versioning System (https://github.com/nthnn/mvs)
+ * This code is licensed under MIT license (see LICENSE for details)
+ */
+
 package core
 
 import (
