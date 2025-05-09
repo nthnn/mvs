@@ -31,10 +31,6 @@ A lightweight version control system written in Go. MVS provides basic `init`, `
 | `status`            | Show staged/modified/untracked files |
 | `tree`              | Render an ASCII branch tree          |
 
-## To-do
-
-- [ ] Complete `*.deb` installer generation on `build.sh`.
-
 ## License
 
 This project is licensed under the **MIT License**. See the [LICENSE](https://github.com/nthnn/mvs/blob/main/LICENSE) file for details.
