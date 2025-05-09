@@ -82,6 +82,9 @@ func main() {
 	case "tree":
 		commands.TreeCommand()
 
+	case "amend":
+		commands.AmendCommand()
+
 	default:
 		usage()
 	}
